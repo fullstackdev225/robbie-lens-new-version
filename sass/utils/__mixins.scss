@@ -1,0 +1,48 @@
+@mixin headFootStyle{
+    border: 2px solid $colorPrimary;
+    background-color: $colorPrimary;
+    padding: 20px;
+}
+
+@mixin sectionBackground{
+    border: 2px solid $colorSecondary;
+    background-color: $colorSecondary;
+    padding: 30px;
+}
+
+@mixin buttonStyle($color){
+    border: 2px solid $color;
+    background-color: $color;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $colorTertiary;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+@mixin buttonStyleHover($color){
+    border-color: darken($color, 10);
+    background-color: darken($color, 10);
+}
+
+@mixin flexboxLayout{
+    display: flex;
+    justify-content: center;
+}
+
+@mixin iconStyle{
+    text-decoration: none;
+    color: $colorTertiary;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@mixin iconStyleBadge{
+    border: 2px solid $colorSecondary;
+    background-color: $colorSecondary;
+    padding: 2px;
+    border-radius: 3px;
+}

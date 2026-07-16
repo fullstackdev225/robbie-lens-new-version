@@ -1,0 +1,43 @@
+.header{
+    @include headFootStyle;
+
+    .navbar{
+        &__icon{
+            margin-left: 100px;
+
+            a{
+               @include iconStyle;
+
+                span{
+                   @include iconStyleBadge;
+                }
+            }
+        }
+
+        &__nav{
+            float: right;
+            margin-top: -45px;
+            margin-right: 100px;
+            display: flex;
+
+            .nav__item{
+                list-style-type: none;
+
+                .nav__link{
+                    color: $colorTertiary;
+                    padding: 15px 20px;
+                    text-decoration: none;
+                    transition: color 250ms;
+
+                    &:hover{
+                        color: $colorSecondary;
+                    }
+
+                    &--active{
+                        color: $colorSecondary;
+                    }
+                }
+            }
+        }
+    }
+}

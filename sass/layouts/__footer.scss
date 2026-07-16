@@ -1,0 +1,29 @@
+.footer{
+    @include headFootStyle;
+
+    &__icon{
+        margin-left: 100px;
+
+        a{
+            @include iconStyle;
+
+            span{
+                @include iconStyleBadge;
+            }
+        }
+    }
+
+    &__social{
+        float: right;
+        margin-top: -45px;
+        margin-right: 100px;
+
+        a{
+            text-decoration: none;
+
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+}
