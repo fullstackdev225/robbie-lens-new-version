@@ -39,3 +39,21 @@
         }
     }
 }
+
+/* reponsive design */
+
+@include mobileOnly{
+    .about-section{
+       .text{
+            margin-left: 80px;
+            font-size: 1em;
+       }
+
+       table{
+        th,td{
+            padding: 15px;
+            font-size: 1em;
+        }
+       }
+    }
+}

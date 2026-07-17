@@ -36,3 +36,23 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobileOnly{
+    .form-section{
+        .form{
+            .row{
+                @include flexboxLayoutResponsive;
+
+                .col{
+                    margin: $marginGrid;
+
+                    .form__input{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}

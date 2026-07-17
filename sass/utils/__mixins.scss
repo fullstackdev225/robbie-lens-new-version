@@ -62,3 +62,14 @@
     font-size: 1.3em;
     display: none;
 }
+
+@mixin mobileOnly{
+    @media screen and (max-width: map-get($breakpoints, mobile)) {
+        @content;
+    }
+}
+
+@mixin flexboxLayoutResponsive{
+    flex-direction: column;
+    align-items: center;
+}

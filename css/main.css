@@ -68,6 +68,17 @@ h1, h2, h3, h4, h4, h6 {
   color: rgb(27, 5, 42);
 }
 
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .header .navbar__icon {
+    margin-left: 10px;
+  }
+  .header .navbar__nav {
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: -70px;
+  }
+}
 .footer {
   border: 2px solid rgb(128, 15, 203);
   background-color: rgb(128, 15, 203);
@@ -101,6 +112,15 @@ h1, h2, h3, h4, h4, h6 {
   opacity: 0.8;
 }
 
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .footer__icon {
+    margin-left: 10px;
+  }
+  .footer__social {
+    margin-right: 10px;
+  }
+}
 .form-section {
   border: 2px solid rgb(27, 5, 42);
   background-color: rgb(27, 5, 42);
@@ -133,6 +153,19 @@ h1, h2, h3, h4, h4, h6 {
   border: 2px solid rgb(128, 15, 203);
 }
 
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .form-section .form .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-section .form .row .col {
+    margin: 5px;
+  }
+  .form-section .form .row .col .form__input {
+    width: 300px;
+  }
+}
 .project-section h1 {
   text-align: center;
 }
@@ -212,6 +245,38 @@ h1, h2, h3, h4, h4, h6 {
   display: flex;
 }
 
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .project-section .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-section .row .col {
+    margin: 5px;
+  }
+  .landimg-section .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .landimg-section .row .col {
+    margin: 5px;
+  }
+  .landimg-section .row .col img {
+    width: 350px;
+    height: 350px;
+  }
+  .portimg-section .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portimg-section .row .col {
+    margin: 5px;
+  }
+  .portimg-section .row .col img {
+    width: 350px;
+    height: 400px;
+  }
+}
 .hero-section {
   border: 2px solid rgb(27, 5, 42);
   background-color: rgb(27, 5, 42);
@@ -233,6 +298,19 @@ h1, h2, h3, h4, h4, h6 {
   font-size: 1.2em;
 }
 
+/* responsive design */
+@media screen and (max-width: 768px) {
+  .hero-section .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-section .row .col {
+    margin: 5px;
+  }
+  .hero-section .row .col img {
+    width: 350px;
+  }
+}
 .about-section {
   border: 2px solid rgb(27, 5, 42);
   background-color: rgb(27, 5, 42);
@@ -267,6 +345,17 @@ h1, h2, h3, h4, h4, h6 {
   font-size: 1.3em;
 }
 
+/* reponsive design */
+@media screen and (max-width: 768px) {
+  .about-section .text, .about-section ul {
+    margin-left: 80px;
+    font-size: 1em;
+  }
+  .about-section table th, .about-section table td {
+    padding: 15px;
+    font-size: 1em;
+  }
+}
 .portfolio-section {
   border: 2px solid rgb(27, 5, 42);
   background-color: rgb(27, 5, 42);

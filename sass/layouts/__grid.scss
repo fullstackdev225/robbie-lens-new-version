@@ -67,3 +67,47 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobileOnly{
+    .project-section{
+        .row{
+            @include flexboxLayoutResponsive;
+
+            .col{
+                margin: $marginGrid;
+            }
+        }
+    }
+
+    .landimg-section{
+        .row{
+            @include flexboxLayoutResponsive;
+
+            .col{
+                margin: $marginGrid;
+
+                img{
+                    width: 350px;
+                    height: 350px;
+                }
+            }
+        }
+    }
+
+    .portimg-section{
+        .row{
+            @include flexboxLayoutResponsive;
+
+            .col{
+                margin: $marginGrid;
+
+                img{
+                    width: 350px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}

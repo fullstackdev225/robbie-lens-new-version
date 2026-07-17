@@ -19,3 +19,22 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobileOnly{
+
+    .hero-section{
+        .row{
+           @include flexboxLayoutResponsive;
+           
+           .col{
+                margin: $marginGrid;
+
+                img{
+                    width: 350px;
+                }
+           }
+        }
+    }
+}

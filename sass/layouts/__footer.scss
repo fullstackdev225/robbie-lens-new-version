@@ -27,3 +27,17 @@
         }
     }
 }
+
+/* responsive design */
+
+@include mobileOnly{
+    .footer{
+        &__icon{
+            margin-left: 10px;
+        }
+
+        &__social{
+            margin-right: 10px;
+        }
+    }
+}
