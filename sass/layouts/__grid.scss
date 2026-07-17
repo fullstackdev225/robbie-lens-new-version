@@ -11,3 +11,59 @@
         }
     }
 }
+
+.landimg-section{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexboxLayout;
+
+        .col{
+            padding: $paddingGrid;
+
+            a{
+                position: relative;
+
+                .photo-hover{
+                    @include photoHover;
+                    margin-bottom: 3px;
+                    margin-top: -320px;
+                }
+
+                &:hover .photo-hover{
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+.portimg-section{
+    h1{
+        text-align: center;
+    }
+
+    .row{
+        @include flexboxLayout;
+
+        .col{
+            padding: $paddingGrid;
+
+            a{
+                position: relative;
+
+                .photo-hover{
+                    @include photoHover;
+                    margin-bottom: 3px;
+                    margin-top: -735px;
+                }
+
+                &:hover .photo-hover{
+                    display: flex;
+                }
+            }
+        }
+    }
+}

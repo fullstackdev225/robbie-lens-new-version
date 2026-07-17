@@ -144,6 +144,74 @@ h1, h2, h3, h4, h4, h6 {
   padding: 5px;
 }
 
+.landimg-section h1 {
+  text-align: center;
+}
+.landimg-section .row {
+  display: flex;
+  justify-content: center;
+}
+.landimg-section .row .col {
+  padding: 5px;
+}
+.landimg-section .row .col a {
+  position: relative;
+}
+.landimg-section .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.3em;
+  display: none;
+  margin-bottom: 3px;
+  margin-top: -320px;
+}
+.landimg-section .row .col a:hover .photo-hover {
+  display: flex;
+}
+
+.portimg-section h1 {
+  text-align: center;
+}
+.portimg-section .row {
+  display: flex;
+  justify-content: center;
+}
+.portimg-section .row .col {
+  padding: 5px;
+}
+.portimg-section .row .col a {
+  position: relative;
+}
+.portimg-section .row .col a .photo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  font-size: 1.3em;
+  display: none;
+  margin-bottom: 3px;
+  margin-top: -735px;
+}
+.portimg-section .row .col a:hover .photo-hover {
+  display: flex;
+}
+
 .hero-section {
   border: 2px solid rgb(27, 5, 42);
   background-color: rgb(27, 5, 42);
@@ -197,6 +265,16 @@ h1, h2, h3, h4, h4, h6 {
   text-align: center;
   padding: 50px;
   font-size: 1.3em;
+}
+
+.portfolio-section {
+  border: 2px solid rgb(27, 5, 42);
+  background-color: rgb(27, 5, 42);
+}
+.portfolio-section h1 {
+  margin-left: 100px;
+  font-size: 3em;
+  color: rgb(128, 15, 203);
 }
 
 /*# sourceMappingURL=main.css.map */

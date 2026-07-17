@@ -1,0 +1,10 @@
+.portfolio-section{
+    border: 2px solid $colorSecondary;
+    background-color: $colorSecondary;
+
+    h1{
+        margin-left: 100px;
+        font-size: $titleSize;
+        color: $colorPrimary;
+    }
+}
